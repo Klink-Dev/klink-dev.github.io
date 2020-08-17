@@ -1,9 +1,35 @@
-body {
-	background-image: url("assets/notebook-1971495_1920.jpg");
-	background-color: #111;
-	color: rgba(180, 160, 160, 1);
+
+html { 
+  background: url("assets/notebook-1971495_1920.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+body {
+
+}
+
+#wrapper {
+	background-color: #666;
+	opacity: .8;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+
+}
+#header {
+	text-align: center;
+
+}
+#nav {
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
 h1 {
 	margin-bottom: -20px;
 }
@@ -11,118 +37,3 @@ h1 {
 h2 {
 	
 }
-
-.menu-btn {
-	position: relative;
-	float: right;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 80px;
-	height: 80px;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	border: 3px solid #fff;
-	overflow: hidden;
-}
-
-.menu-btn__burger {
-	width: 50px;
-	height: 6px;
-	background: #FFF;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(225m 101, 47, .2);
-	transition: all .6s ease-in-out;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after{
-	content: '';
-	position: absolute;
-	width: 50px;
-	height: 6px;
-	background: #fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(225m 101, 47, .2);
-	transition: all .5s ease-in-out;
-}
-
-.menu-btn__burger::before{
-	transform: translateY(-16px);
-}
-
-.menu-btn__burger::after{
-	transform: translateY(16px);
-}
-
-/*animation*/
-.menu-btn.open .menu-btn__burger{
-	transform: translateX(-50px);
-	background: transparent;
-	box-shadow: none;
-}
-
-.menu-btn.open .menu-btn__burger::before {
-	transform: rotate(45deg) translate(35px, -35px);
-	
-}
-
-.menu-btn.open .menu-btn__burger::after {
-	transform: rotate(-45deg) translate(35px, 35px);
-}
-
-
-
-
-
-
-#wrapper {
-	background-color: #333;
-	opacity: .7;
-	width: 90%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#header {
-/*	height:100px;
-	background:black;
-	margin:auto;
-	text-align:center;
-*/
-}
-#nav {
-	margin-left: auto;
-	margin-right: auto;
-/* 	height:50px;
-	background:black;
-	margin:auto;
-	text-align:center;
-	font:white; */
-}
-#body {
-	margin: 0;
-}
-#sidebar {
- /* width:20%;
-    background:orange;
-    height:500px;
-    float:left; */
-}
-#content {
-    float:left;
-}
-#advertising {
- /*    width:20%;
-    background:blue;
-    height:500px;
-    float:right; */
-}
-#footer {
- /*    height:50px;
-    background:pink;
-clear: both; */
-}
-#button {
-	background:#ff0000;
-	}
