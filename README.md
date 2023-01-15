@@ -1,6 +1,8 @@
+
 # klink-dev.github.io
 Portfolio 
 
+<!--
 # Documentation
 
 ## Purpose:
@@ -29,3 +31,4 @@ Outputs:
 ```N/A```
 
 ## Additional Features and Functions:
+-->
